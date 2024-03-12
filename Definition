@@ -1,0 +1,21 @@
+Definition : 
+Git functions as a Distributed Version Control System designed to Track the changes to files, including details such as who made the changes, when, and where. 
+It is primarily employed for source code management throughout the Software Development Life Cycle (SDLC).
+It will Create the .GIT repository ( FOLDER )  to store the Changes.
+
+GITHUB : Its a platform , allow us to host the Git Repostitory
+
+Stages :
+1. Working Directory 
+   It's the location where your project resides, and it may or may not be under GIT tracking. If tracking is desired, use the command "git init."
+2. Staging Area 
+   When aiming to track the changes to specific files within your project folder, you can include them in the staging area using the command "git add."
+3. Commiting Area 
+   Save the file changes to the repository by committing them with the command "git commit -m "messages"."
+
+Life Cycle :
+
+git init --> git add .  --> git status ---> git commit -m "First Commit(message)" 
+
+
+
